@@ -100,7 +100,8 @@ a) Verify the Functionality
 •	After this you can see the window like below
 
 
-![image](https://github.com/user-attachments/assets/34e83330-68a3-4eed-833a-7de552479650)
+![image](https://github.com/user-attachments/assets/f2220dd2-e8e9-4369-8636-a4e664b63752)
+
 
 ### Fig 3: Invoke the Cadence Environment
 
@@ -120,7 +121,8 @@ or
 •	Click the cds.lib file and save the file by clicking on Save option
 
 
- ![image](https://github.com/user-attachments/assets/b20ccd4c-41db-413d-822d-f86fac7e1d9b)
+![image](https://github.com/user-attachments/assets/de95db6f-a0b9-4ed8-aab5-60084ba2b962)
+
 
 ### Fig 5:cds.lib file Creation
 •	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used.
@@ -156,7 +158,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
  ![image](https://github.com/user-attachments/assets/89a72b0f-f1e6-46c1-9916-7ddaf82c15b5)
 
-### Fig 7: Compilation Launch Option
+### Fig 7(a): Compilation Launch Option
 
 •	After compilation it will come under worklib you can see in right side window
 •	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench.
@@ -173,6 +175,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 3.	Computes parameter values
 4.	Checks for hierarchical names conflicts
 5.	It also establishes net connectivity and prepares all of this for simulation
+
+![image](https://github.com/user-attachments/assets/f31442ae-0d62-45cc-9003-71a125298e39)
+
+### Fig 7(b): Compilation Launch Option
 
 •	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
