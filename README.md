@@ -116,7 +116,7 @@ a) Verify the Functionality
 ![image](https://github.com/user-attachments/assets/f2220dd2-e8e9-4369-8636-a4e664b63752)
 
 
-#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig 3: Invoke the Cadence Environment
+#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 3: Invoke the Cadence Environment
 
 -	To Launch Simulation tool
     +	linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design
@@ -139,6 +139,8 @@ a) Verify the Functionality
 
 
 #### &emsp;&emsp;&emsp;Fig 5:cds.lib file Creation
+<br>
+
 -	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used.
 -	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure .
 
@@ -160,6 +162,8 @@ a) Verify the Functionality
 &emsp;Process to check the correct Verilog language syntax and usage
 -	Inputs: Supplied are Verilog design and test bench codes
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file
+
+<br>
 
 #### Steps for compilation:
 
@@ -183,16 +187,23 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 -	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench.
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
+<br>
+
 #### Step 2:
 #### Elaboration:–
 &emsp;To check the port connections in hierarchical design
 -	Inputs: Top level design / test bench Verilog codes
 -	Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file
 -	Steps for elaboration – Run the elaboration command with elaborate options
+  
 &emsp;&emsp;1.	It builds the module hierarchy
+
 &emsp;&emsp;2.	Binds modules to module instances
+
 &emsp;&emsp;3.	Computes parameter values
+
 &emsp;&emsp;4.	Checks for hierarchical names conflicts
+
 &emsp;&emsp;5.	It also establishes net connectivity and prepares all of this for simulation
 
 ![image](https://github.com/user-attachments/assets/f31442ae-0d62-45cc-9003-71a125298e39)
