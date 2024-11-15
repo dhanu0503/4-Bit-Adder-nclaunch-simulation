@@ -101,6 +101,8 @@ a) Verify the Functionality
     #50 $finish;
     Endmodule
 
+<br>
+
 ### Functional Simulation:
 
 •	Invoke the cadence environment by type the below commands
@@ -123,6 +125,7 @@ a) Verify the Functionality
       
 -	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+<br>
 
  ![image](https://github.com/user-attachments/assets/39547ab8-4c0e-4013-b99a-390bc76f77be)
 
