@@ -187,7 +187,6 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 -	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench.
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
-<br>
 
 #### Step 2:
 #### Elaboration:–
@@ -211,6 +210,11 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 #### <p align="center">  Fig 7(b): Compilation Launch Option
 
 -	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+
+<br>
+<br>
+<br>
+<br>
 
 #### Step 3: 
 #### Simulation:– 
