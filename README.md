@@ -13,11 +13,14 @@
 
   &emsp;To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).
 
+<br>
+
 Here’s the Logic Ic for a 1-bit full adder:
 
 
 ![image](https://github.com/user-attachments/assets/f1c81f3f-4327-4789-b658-7791b29225f0)
 
+<br>
 <br>
 <br>
 <br>
@@ -28,6 +31,8 @@ Here’s the truth table for a 1-bit full adder:
  ![image](https://github.com/user-attachments/assets/4d230585-cc3b-4997-aba5-11e7cd108d76)
 
 #### &emsp;&emsp;&emsp;Fig 1 : Diagram and truth table of full adder 
+
+<br>
 
 Logic Expressions:
 
