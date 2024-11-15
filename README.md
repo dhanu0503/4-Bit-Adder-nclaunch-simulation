@@ -9,14 +9,18 @@
 
 ### 4-bit Adder Design:
 
- + &emsp;To construct a 4-bit adder, need to chain together four 1-bit full adders. Each full adder computes the sum and carry for one bit of the two numbers. The carry-out from one adder feeds into the carry-in of the next adder in the sequence. This process adds the two 4-bit numbers bit by bit, with the carry propagating through each stage, resulting in a final sum and carry-out at the end.
+  &emsp;To construct a 4-bit adder, need to chain together four 1-bit full adders. Each full adder computes the sum and carry for one bit of the two numbers. The carry-out from one adder feeds into the carry-in of the next adder in the sequence. This process adds the two 4-bit numbers bit by bit, with the carry propagating through each stage, resulting in a final sum and carry-out at the end.
 
- + &emsp;To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).
+  &emsp;To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).
 
 Here’s the Logic Ic for a 1-bit full adder:
 
 
 ![image](https://github.com/user-attachments/assets/f1c81f3f-4327-4789-b658-7791b29225f0)
+
+<br>
+<br>
+<br>
 
 Here’s the truth table for a 1-bit full adder:
 
@@ -148,11 +152,15 @@ a) Verify the Functionality
 &emsp;Process to check the correct Verilog language syntax and usage
 -	Inputs: Supplied are Verilog design and test bench codes
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file
--	Steps for compilation:
+
+#### Steps for compilation:
 
   &emsp;1.	Create work/library directory (most of the latest simulation tools creates automatically)
+  
   &emsp;2.	Map the work to library created (most of the latest simulation tools creates automatically)
+  
   &emsp;3.	Run the compile command with compile options
+  
 i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
   +	Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code
